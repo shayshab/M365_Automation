@@ -41,30 +41,6 @@ Install-Module -Name ActiveDirectory -Force  # For on-premises AD
 Install-Module -Name MSOnline -Force         # Legacy M365 admin
 ```
 
-### Basic Usage
-
-1. **Connect to M365 services:**
-```powershell
-# Import the script
-. .\Scripts\User_Management_Scripts.ps1
-
-# Connect to services
-Connect-M365Services
-```
-
-2. **Create a new user:**
-```powershell
-$NewUser = New-M365User -DisplayName "John Doe" -UserPrincipalName "john.doe@company.com" -Department "IT" -JobTitle "System Administrator"
-```
-
-3. **Generate reports:**
-```powershell
-Get-UserReport -Department "IT" -OutputPath "IT_Users_Report.csv"
-```
-
-## 📚 Knowledge Documentation
-
-The `Knowledge_Notes/` directory contains comprehensive documentation organized by topic:
 
 ### Getting Started
 - **[01_Getting_Started_M365.md](Knowledge_Notes/01_Getting_Started_M365.md)**: Basic M365 concepts, setup, and essential administrative tasks
