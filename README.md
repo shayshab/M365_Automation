@@ -24,22 +24,6 @@ M365_scripts/
     └── Windows_Server_AD_Scripts.ps1        # Windows Server & Active Directory
 ```
 
-## 🚀 Quick Start
-
-### Prerequisites
-
-Before running any scripts, install the required PowerShell modules:
-
-```powershell
-# Core modules
-Install-Module -Name Microsoft.Graph -Force
-Install-Module -Name AzureAD -Force
-Install-Module -Name ExchangeOnlineManagement -Force
-
-# Additional modules for specific scenarios
-Install-Module -Name ActiveDirectory -Force  # For on-premises AD
-Install-Module -Name MSOnline -Force         # Legacy M365 admin
-```
 
 
 ### Getting Started
